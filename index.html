@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+        <h1 class="judul">CURRICULUM VITAE</h1>
+        </header>
+
+        <button onclick="ubahTema()">Mode Gelap</button>
+
+        <div class="cv">
+        <h2>DATA PRIBADI</h2>
+        <table border="0" class="data-pribadi">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td>Nazala Shayla Maulidia</td>
+                <td rowspan="5" class="foto-profil"><img src="TK.jpg" alt="Foto Profil"></td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>:</td>
+                <td>Klaten, 21 April 2007</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>nazala.shyla@gmail.com</td>
+            </tr>
+            <tr>
+                <td>No. HP</td>
+                <td>:</td>
+                <td>+62 831 0528 0828</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td>Jatinom, Klaten, Jawa Tengah</td>
+            </tr>
+        </table></div>
+
+        <section>
+
+        <div class="profil">
+            <h2>TENTANG SAYA</h2>
+
+            <button onclick="toggleProfil ()">
+                Tampilkan / Sembunyikan Profil
+            </button>
+            <p id="profil">Saya merupakan mahasiswa Sains Data yang tertarik pada dunia teknologi, analisis data, dan pemrograman. 
+            Saya memiliki semangat untuk terus belajar, mencoba hal baru, dan mengembangkan kemampuan melalui pengalaman serta proyek yang dikerjakan.</p></div>
+        </section>
+        <div class="pendidikan"><h2>RIWAYAT PENDIDIKAN</h2>
+        <table border="1" class="riwayat">
+            <tr>
+                <th>TAHUN</th>
+                <th>INSTITUSI</th>
+                <th>JURUSAN</th>
+            </tr>
+            <tr>
+                <td>2025-sekarang</td>
+                <td>UIN Raden Mas Said Surakarta</td>
+                <td>Sains Data</td>
+            </tr>
+            <tr>
+                <td>2023-2025</td>
+                <td>SMA NEGERI 1 JATINOM</td>
+                <td>IPA</td>
+            </tr>
+            <tr>
+                <td>2019-2023</td>
+                <td>SMP NEGERI 1 JATINOM</td>
+                <td>UMUM</td>
+            </tr>
+        </table></div>
+        <div class="pengalaman">
+        <h2>PENGALAMAN KERJA DAN ORGANISASI</h2>
+        <h3>Staff Dapur-Warung Makan</h3>
+        <p>2025-sekarang</p>
+        <ul>
+            <li>Menyiapkan bahan dan kebutuhan makanan sebelum proses memasak</li>
+            <li>Membantu proses pengolahan dan penyajian makanan</li>
+            <li>Menjaga kebersihan area dapur dan peralatan kerja</li>
+            <li>Bekerja sama dengan anggota tim untuk menyelesaikan pekerjaan secara efektif</li>
+        </ul>
+        <h3>Anggota Bidang Riset dan Pengembangan Keilmuan-IMM</h3>
+        <p>2026-sekarang</p>
+        <ul>
+            <li>Berpartisipasi dalam kegiatan riset dan pengembangan keilmuan organisasi</li>
+            <li>Mengikuti diskusi dan kegiatan yang berkaitan dengan pengembangan wawasan akademik</li>
+            <li>Bekerja sama dengan anggota bidang dalam merencanakan dan melaksanakan program kerja</li>
+        </ul></div>
+        <div class="keterampilan">
+        <h2>KETERAMPILAN</h2>
+        <ul>
+            <li>Manajemen waktu</li>
+            <li>Kerja sama</li>
+            <li>Adaptasi</li>
+            <li>Kemauan belajar</li>
+        </ul></div>
+        <div class="proyek">
+        <h2>PROYEK AKADEMIK DAN PRIBADI</h2>
+        <ul>
+            <li>To-Do List Web : Pengembangan aplikasi menggunakan HTML dan CSS</li>
+            <li>Website Review Kuliner : Pengembangan website menggunakan PHP dan MySQL</li>
+            <li>To-Do List Excel : Pembuatan spreadsheet tugas dengan visualisasi grafik</li>
+        </ul></div>
+        <div class="minat">
+        <h2>HOBI DAN MINAT</h2>
+        <ul>
+            <li>Musik</li>
+            <li>Membaca</li>
+            <li>Game</li>
+            <li>Melukis</li>
+        </ul></div>
+
+        <section>
+            <div class="kontak">
+                <h2>Kontak</h2>
+
+                <p>
+                    GitHub:
+                    <a href="https://github.com/Iam-zall">
+                        GitHub
+                    </a>
+                </p>
+                <p>
+                    LinkedIn:
+                    <a  href="https://www.linkedin.com/">
+                        LinkedIn
+                    </a>
+                </p>
+            </div>
+            <button onclick="pesanKontak()">
+                Hubungi Saya
+            </button>
+            <button onclick="cetakCV()">
+                Cetak CV
+            </button>
+        </section>
+        <footer>
+            <p>
+                &copy; <span id="tahun"></span> Nazala Shayla Maulidia
+            </p>
+        </footer>
+    </body>
+</html>

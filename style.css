@@ -1,0 +1,272 @@
+body {
+    font-family: Georgia, sans-serif;
+    background-color: #7DADD4;
+    color: black;
+    margin: auto;
+    padding: 15px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+.cv {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #CFE8FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.data-pribadi {
+    width: 70%;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.data-pribadi td {
+    padding: 8px;
+    vertical-align: top;
+} 
+
+.data-pribadi td:first-child {
+    width: 180px;
+}
+
+.foto-profil {
+    width: 130px;
+    height: 130px;
+    padding-left: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.foto-profil img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-size: large;
+    border-top: 3px solid #497C8F;
+    padding-top: 10px;
+    border-bottom: 3px solid #497C8F;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.profil {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #CFE8FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pendidikan {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #CFE8FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.riwayat {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.riwayat th {
+    background-color: #1f3c88;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.riwayat td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.riwayat tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pengalaman {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #CFE8FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.keterampilan {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #CFE8FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.proyek {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #CFE8FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.minat {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #CFE8FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.kontak {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #CFE8FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 600px) {
+ 
+    body {
+        padding: 10px;
+    }
+ 
+    .cv {
+        padding: 15px;
+    }
+ 
+    .data-pribadi td {
+        padding: 5px;
+    }
+
+    .data-pribadi td:first-child {
+        width: auto;
+    }
+ 
+    .foto-profil img {
+        width: 90px;
+        height: 90px;
+    }
+ 
+    .riwayat {
+        font-size: 12px;
+    }
+ 
+}
+
+.dark-mode {
+    background-color: #222222;
+    color: #eeeeee;
+}
+ 
+.dark-mode .cv,
+.dark-mode .profil,
+.dark-mode .pendidikan,
+.dark-mode .pengalaman,
+.dark-mode .keterampilan,
+.dark-mode .proyek,
+.dark-mode .minat, .dark-mode .kontak {
+    background-color: #333333;
+}
+
+.dark-mode .riwayat {
+    background-color: #333333;
+}
+
+.dark-mode .riwayat th {
+    background-color: #222222;
+    color: white;
+}
+
+.dark-mode .riwayat td {
+    background-color: #333333;
+    color: white;
+}
+ 
+.dark-mode h1,
+.dark-mode h2 {
+    color: #7da7ff;
+}
+ 
+.dark-mode a {
+    color: #7da7ff;
+}
+
+button {
+    background-color: #1f3c88;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #e67e22;
+}
+
+@media print {
+ 
+    body {
+        background-color: white;
+        padding: 0;
+    }
+ 
+    .cv {
+        width: 100%;
+        max-width: none;
+        padding: 0;
+    }
+ 
+    button {
+        display: none;
+    }
+ 
+}
